@@ -1,0 +1,10 @@
+<h2>Frutas</h2>
+<ul class="heroes">
+    <li *ngFor="let fruit of fruits" (click)="onSelect(fruit)">
+        <span>{{fruit.name | titlecase }}</span>
+    </li>
+</ul>   
+
+<div *ngIf="selectedFruit">
+    <span> La fruta {{selectedFruit.name}} es de color {{selectedFruit.color}}</span>
+</div>
