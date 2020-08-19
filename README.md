@@ -11,6 +11,6 @@ Open two terminals one for the frontend and other one for the bakend:
 1. In the backend one, type ```rails s```
 2. Then in the frontend one, type ```ng serve```
 
-Or, in the root folter, open a terminal ant type:
+Or, in the root folter, open a terminal and type:
 
-``` (cd backend && rails s) & (cd frontend && ng serve)``
+``` (cd backend && rails s) & (cd frontend && ng serve)```
